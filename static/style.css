@@ -1,0 +1,147 @@
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+.logo{
+    width: 100%;
+    height:35rem;
+}
+
+.round-25{
+    border-radius:25px;
+}
+
+.rubik {
+    font-family: "Rubik", san-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cursed{
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+
+.abel{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.riot{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animelogo{
+    width: 5rem;
+    height: 3.5rem;
+}
+
+.animebg{
+    background: url('animenewslogo.jpeg');
+    width: 100%;
+    height: 25rem;
+    line-height: 35rem;
+}
+
+.jumbo-text{
+    position: relative;
+}
+
+.blur-nav{
+    backdrop-filter:blur(10px);
+}
+
+.newslink{
+    text-decoration:none;
+}
+
+.news{
+    border:none;
+    border-radius: 25px;
+}
+
+
+.newsimg{
+    width:100%;
+    border-radius: 25px 25px 0px 0px;
+    height:10rem;
+}
+
+.newsimgoverlay{
+    width:100%;
+    border-radius: 25px 25px 25px 25px;
+    height:15rem;
+    filter: brightness(50%);
+}
+
+.newsimgoverlay:hover{
+    box-shadow: 0 10px 8px rgba(0,0,0,0.2), 0 12px 13px rgba(0,0,0,0.3);
+}
+
+.downinfo{
+    
+    margin-top: 5rem;
+}
+
+
+
+h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iconrow{
+    justify-content: space-around;
+}
+
+.icon{
+    font-size: 2rem;
+}
+
+.social-nav{
+    display: inline;
+    justify-content: space-around;
+}
+
+.social-nav > li {
+    list-style: none;
+}
+
+.social-nav > li > a {
+    text-decoration: none;
+}
+
+.offscreen{
+    
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    position: fixed;
+    transform: translateX(-300px);
+}
+
+button:hover~.offscreen {
+    transform: translateX(0px);
+}
+
+.no-bg{
+    background: none;
+}
+
+.light-black{
+    background: #313131;
+}
+
+.round-top{
+    border-radius: 25px 25px 0px 0px;
+}
