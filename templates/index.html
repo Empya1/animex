@@ -71,7 +71,7 @@
       
            
 {%for update in updates%} 
-      {% if update["overdue"] == "False" %}   
+      {% if update["overdue"] == "True" %}   
              <div class="col-sm-6 col-lg-4 p-1 mt-4">
                 <a class="newslink" href={{update["source_site"]}} >
                     <div class="card bg-dark round-5 news ">
