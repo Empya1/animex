@@ -71,7 +71,7 @@
       
            
 {%for update in updates%} 
-      {% if update["overdue"]  != "True" %}   
+      {% if update["overdue"] == "False" %}   
              <div class="col-sm-6 col-lg-4 p-1 mt-4">
                 <a class="newslink" href={{update["source_site"]}} >
                     <div class="card bg-dark round-5 news ">
@@ -101,7 +101,7 @@
       <a href={{update["source_site"]}} >
         <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="card border-0 ">
-                <img src="dandadan.jpg" alt="" class="card-img-top bg-dark">
+                <img src={{update[" preview_image"]}} alt="" class="card-img-top bg-dark">
                 <div class="card-body">
                     <h3>{{update["title"]}}</h3>
                     <span></span>
