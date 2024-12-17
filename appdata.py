@@ -6,7 +6,7 @@ GETALL = "/get_all"
 EDIT = "/edit"
 DELETE = "/delete"
 fb_link = "#"
-wa_link="#"
+wa_link="https://chat.whatsapp.com/HNL8QVzh0yxB36N5ljAlUY"
 x_link="#"
 
 multitag = Markup("""
